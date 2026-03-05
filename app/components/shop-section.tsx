@@ -102,7 +102,7 @@ export function ShopSection({ shop, color }: Props) {
               return (
                 <tr
                   key={item.item}
-                  className={`transition-opacity ${state.inCart ? "opacity-100" : "opacity-35"}`}
+                  className="transition-opacity"
                 >
                   <td className="py-2 pr-2">
                     <input
