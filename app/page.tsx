@@ -36,11 +36,15 @@ function CalculatorContent() {
 export default function Home() {
   return (
     <TablesProvider>
-      <div className="min-h-screen bg-slate-950 text-white">
-        <div className="mx-auto max-w-3xl px-4 py-10">
+      <div className="relative min-h-screen text-white" style={{ backgroundColor: "#020617" }}>
+        <div
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: "url('/background.jpg')", opacity: 0.88 }}
+        />
+        <div className="relative mx-auto max-w-3xl px-4 py-10">
           <header className="mb-10 text-center">
             <p className="text-sm uppercase tracking-[0.4em] text-slate-400">
-              Mick&apos;s Top Girl Resource Calculator
+              SVS Store Calculator
             </p>
             <h1 className="mt-4 text-4xl font-bold text-white">
               SVS Store Calculator
