@@ -39,7 +39,7 @@ export default function Home() {
       <div className="relative min-h-screen text-white" style={{ backgroundColor: "#020617" }}>
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: "url('/background.jpg')", filter: "brightness(0.4)" }}
+          style={{ backgroundImage: "url('/background.jpg')", filter: "brightness(0.25)" }}
         />
         <div className="relative mx-auto max-w-3xl px-4 py-10">
           <header className="mb-10 text-center">
